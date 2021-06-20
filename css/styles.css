@@ -11,16 +11,25 @@
 }
 
 header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     text-align: center;
     padding: 25px;
-    background-color: rgb(235, 235, 235);
+     /*background-color: rgb(235, 235, 235); */
+    background-color: black;
+    
+    
     
     
 }
 
 .menu {
     border: 3px solid gray;
-    background-color: ;
+    background-color: gray;
+    ;
+    
     
 }
 
@@ -44,6 +53,8 @@ body {
     right: 150px;
     height: 50px;
     width: 50px;
+    padding: 10px;
+    top: 0;
     
 
 }
@@ -56,8 +67,17 @@ body {
    
 }
 
+a:link {
+    color: black;
+    
+    text-decoration: double;
+}
+
+a:visited {
+    color: black; 
+}
+
 #welcome-image {
-    position: relative;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -83,7 +103,6 @@ body {
 #softskills {
     
     display:inline-block;
-    position: relative;
     width: 400px;
     height: 237px;
     padding: 30px;
