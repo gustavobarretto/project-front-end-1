@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.line {
+    
+    width: 100%;
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(235, 235, 235);
+    
+    
+}
+
+.menu {
+    border: 3px solid gray;
+    background-color: ;
+    
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#logo {
+    position: absolute;
+    right: 150px;
+    height: 50px;
+    width: 50px;
+    
+
+}
+
+#index {
+    padding: 25px;
+    text-align: center;
+    background-size: contain;
+
+   
+}
+
+#welcome-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#bioskills {
+    display: inline-block;
+}
+
+
+#code {
+    
+    display: inline-block;
+    width: 200px;
+    height: 109px;
+    padding: 30px;
+    border: 5px solid gray;
+    
+}
+
+#softskills {
+    
+    display:inline-block;
+    position: relative;
+    width: 400px;
+    height: 201px;
+    padding: 30px;
+    margin: 20px;
+    border: 5px solid gray;
+
+}
+
+#experience {
+    
+    display: inline-block;
+    width: 400px;
+    height: 90px;
+    padding: 30px;
+    border: 5px solid gray;
+    
+}
+
+#bio-img {
+    padding: 30px;
+
+}
+
+footer {
+    background-color: rgb(235, 235, 235);
+    padding: 25px;
+}
+
+#projects {
+    padding: 25px;
+}
+
+#contact {
+    padding: 25px;
+}
+
+.whatsapp {
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
